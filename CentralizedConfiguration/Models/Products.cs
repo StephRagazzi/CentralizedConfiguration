@@ -5,8 +5,9 @@ using System.Web;
 
 namespace CentralizedConfiguration.Models
 {
-    public class Product
+    public class Products
     {
         public string Name { get; set; }
+        public Config Config { get; set; }
     }
 }

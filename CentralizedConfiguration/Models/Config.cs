@@ -10,6 +10,6 @@ namespace CentralizedConfiguration.Models
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public XmlDocument Config { get; set; }
+        public XmlDocument Configuration { get; set; }
     }
 }

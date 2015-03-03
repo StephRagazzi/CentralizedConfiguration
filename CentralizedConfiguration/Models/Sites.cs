@@ -5,9 +5,9 @@ using System.Web;
 
 namespace CentralizedConfiguration.Models
 {
-    public class Site
+    public class Sites
     {
         public string Name { get; set; }
-        public List<Config> Configs { get; set; }
+        public List<Products> Products { get; set; }
     }
 }
